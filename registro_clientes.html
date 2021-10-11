@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro_clientes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">index</a></li>
+        </ul>
+    </nav>
+    <form action="">
+        <table>
+            <h1>REGISTRO CLIENTES</h1>
+            <tr>
+                <td>Tipo de Documento</td>
+                <td>
+                    <select name="cedula" id="cedula">
+                        <option value=""></option>
+                        <option value="cedula_ciudadania">Cedula de Ciudadania</option>
+                        <option value="tarjeta_identidad">Tarjeta de Identidad</option>
+                        <option value="cudula_extrangera">Cedula Extrangera</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Identificacion</td>
+                <td><input type="text" name="identificacion" required placeholder="Identificacion"></td>
+            </tr>
+            <tr>
+                <td>Nombres Cliente</td>
+                <td><input type="text" name="nombres" id="" required  placeholder="Nombres"></td>
+            </tr>
+            <tr>
+                <td>Apellidos Cliente</td>
+                <td><input type="text" name="apellidos" required placeholder="Apellidos"></td>
+            </tr>
+            <tr>
+                <td>Direccion Clientes</td>
+                <td><input type="text" name="direccion" required placeholder="Direccion"></td>
+            </tr>
+            <tr>
+                <td>Telefono</td>
+                <td><input type="text" name="telefono" required placeholder="Telefono"></td>
+            </tr>
+            <tr>
+                <td>Fecha de Registro</td>
+                <td><input type="date" name="fecha_registro" required placeholder="Fecha de Registro"></td>
+            </tr>
+            <tr>
+                <td>Estado Cliente</td>
+                <td><select name="estado_clientes" id="estado">
+                    <option value=""></option>
+                    <option value="activo">activo</option>
+                    <option value="inactivo">Inactivo</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><button type="submit">Enviar</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
