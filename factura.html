@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>factura</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">index</a></li>
+            <li><a href="registro_clientes.html">R.Clientes</a></li>
+            <li><a href="registro_inventario.html">Inventario</a></li>
+        </ul>
+    </nav>
+    <h1>Facturacion</h1>
+    <form action="">
+        <table >
+            <tr>
+                <td>Valor con Iva</td>
+                <td><input type="number" name="valorcon" placeholder="valor con Iva" required></td>
+            </tr>
+            <tr>
+                <td>Valor sin Iva</td>
+                <td><input type="number" name="valorsin" placeholder="Valor sin Iva" required></td>
+            </tr>
+            <tr>
+                <td>Fecha de Facturacion</td>
+                <td><input type="date" name="fecha" id="" required></td>
+            </tr>
+            <tr>
+                <td>Valor Total</td>
+                <td><input type="number" name="proveedor" placeholder="$ Valor Total" required></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button class="boton" type="submit">Registrar</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
