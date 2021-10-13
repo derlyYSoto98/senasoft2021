@@ -5,9 +5,10 @@ body{
     background-image: url();
 }
 h1{
+    margin-right: -18%;
     margin-top: 70px;
     text-align: center;
-    border-bottom: 2px solid wheat;
+    border-bottom: 2px solid wheat ;
 }
 td , tr{
     padding: 20px;
@@ -20,28 +21,22 @@ input , select{
     background-color: transparent;
 }
 form{
+    
+    margin-left: 31%;
     margin-top: 50px;
-    /* margin: 0 auto; */
-    /* background-color: aqua; */
-    /* width: 50%; */
 }
 table{
-    /* border: none; */
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 40px;
-
-    /* width: 80%; */
-    /* text-align: center; */
-    /* background-color: red;  */
 }
 nav{
     top: 0;
     left: 0;
     position: fixed;
     height: 100vh;
-    width: 300px;
+    width: 250px;
     background-color: rgb(1 , 139 ,211);
     font-size: 1.5em;
 }
@@ -63,18 +58,51 @@ a{
     padding: 25px;
 }
 a:hover{
+    width: 68%;
     background-color: rgb(25 , 24 ,24,.4);
     cursor: pointer;
     transition: all 0.3s ease;
     font-size: 1.1em;
 }
-button{
-    background-color: rgb(228, 18, 18);
-    padding: 15px;
-    width: 90px;
-    color: white;
+.boton{
+    margin-left: 170px;
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(1 , 139 ,211);
     font-size: 0.7em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    cursor: pointer;
+    color: white;
+}
+.boton:hover{
+    background-color: rgb(204, 207, 202);
+    color: black;
+
+}
+@media only screen and (max-width: 1000px ) {
+    nav{
+        padding: 20px;
+        width: 18%;
+     
+    }
+    table{
+        margin-left: 100px;
+        width: 35%;
+    }
+    a:hover{
+        width: 34%;
+        background-color: rgb(25 , 24 ,24,.4);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-size: 1.1em;
+    }
+    li{
+        color: white;
+        position: relative;
+        left: -80px;
+        width: 300px;
+        display: block;
+    }
+    .boton{
+        margin-left: 100px;
+    }
 }
