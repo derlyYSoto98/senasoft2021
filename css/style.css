@@ -12,7 +12,7 @@ h1{
 }
 td , tr{
     padding: 20px;
-    width: 300px;
+    width: 330px;
     font-size: 1.3em;
 }
 input , select{
@@ -86,17 +86,19 @@ a:hover{
      
     }
     table{
-        margin-left: 100px;
-        width: 35%;
+        margin-left: 120px;
+        width: 30%;
+        font-size: 1em;
     }
     a:hover{
         width: 34%;
         background-color: rgb(25 , 24 ,24,.4);
         cursor: pointer;
         transition: all 0.3s ease;
-        font-size: 1.1em;
+        font-size: 1em;
     }
     li{
+        font-size: 0.9em;
         color: white;
         position: relative;
         left: -80px;
@@ -105,5 +107,14 @@ a:hover{
     }
     .boton{
         margin-left: 100px;
+    }
+    h1{
+        font-size: 2em;
+        margin-right: -24%;
+    }
+    td , tr{
+        padding: 18px;
+        width: 280px;
+        font-size: 1.1em;
     }
 }
