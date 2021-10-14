@@ -1,0 +1,186 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body {
+    background-color: #e6eaf5;
+    text-align: center;
+   
+}
+h1  {  
+    text-align: center;
+    font-style: 'italica';
+    font-size: 2em;
+    background: rgb(221, 221, 199);
+    font-family: sans-serif;
+    padding: 12px;
+    height: 40px;
+}
+.icono
+{
+    float: left;
+    margin-right:10px ;
+    margin-left: 42px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+ }
+    .pos-left{
+        float: left;
+        margin-right:10px ;
+        margin-left: 100px;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: left;
+        text-decoration: none;
+        list-style: none;
+        font-family: 'Oswald';
+        
+    }
+
+
+
+   img {
+       margin:  0 auto 0 auto;
+       display: block;
+       position: initial;
+   }
+   p {
+   
+   text-align: center;
+   }
+
+   h2.font-cinzel {
+       font-family: 'Cinzel', serif;
+       font-size: 3.5em;
+       font-style: italic;
+
+       
+    } 
+   
+    h2.font-bellota {
+        font-family: 'bellota', Arial, Helvetica, sans-serif;
+        font-size: 1.5em;
+        font-style: 'bellota';
+    }
+   
+    .agregar-carrito{
+        margin: 10px 0;
+    }
+
+    .font-Oswald {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2em;
+
+    } 
+    .font-negrita {
+        font-weight: bold;
+        font-family: 'bellota', serif;  
+    }
+
+    .font-italica {
+        font-size: 72pt;
+        font-style: italic ;
+    }
+    span.resaltado {
+        font-size: 2em;
+        color: rgb(74, 76, 184);
+        font-weight: italic;
+        font-family: 'Bellota', serif;
+    }
+    
+    .container {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        
+    }
+   .enlace{
+       text-decoration: none;
+       font-weight: bolder;
+       font-size: 2em;
+       font-family: 'Bellota';
+       color: rgb(52, 14, 221);
+   }
+   
+   .espaciado-palabras{
+    font-size: 2.5em;
+    letter-spacing: 0.3em;
+    word-spacing: 0.5em;
+ 
+    }
+    .espaciado-letras {
+
+    font-size: 2.5em;
+    letter-spacing: 1em;
+    }
+
+    .nombres{
+        font-style: normal;
+        font-size: 1em;
+        color: black;
+        line-height: 2em;
+    }
+
+    div.diseño{
+        background-color:  rgb(230, 227, 217);
+        padding: 4px;
+        display: inline-block;
+        border-radius: 7px;
+        margin: 0 auto 0 auto;
+        margin-bottom: 5px;
+    }
+    .info-card .precio span {
+        font-weight: 700;
+        font-size: 22px;
+    }
+    .u-pull-right {
+        float: right;
+    }
+    
+    .info-card .precio {
+        text-decoration: line-through;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+        color: #FFF;
+        background-color: #8bc1f3;
+        border-color: #000000;
+    }
+    .u-full-width {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.u-full-width button-primary button input agregar-carrito {
+    margin: 10px 0;
+    text-align: center;
+    
+}
+.emfatizado{
+    font-style: italic;
+    color: #FBAF32;
+}
+
+.estilo-enlace{
+    font-size: 1.5em;
+    color: rgb(74, 76, 184);
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    margin-right:20px;
+    text-align: left;
+    color: black;
+    
+
+  }
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}  
