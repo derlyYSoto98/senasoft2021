@@ -17,19 +17,7 @@
     </nav>
     <h1>REGISTRO CLIENTES</h1>
     <form action="">
-        <table      >
-            
-            <tr>
-                <td>Tipo de Documento</td>
-                <td>
-                    <select name="cedula" id="cedula">
-                        <option value=""></option>
-                        <option value="cedula_ciudadania">Cedula de Ciudadania</option>
-                        <option value="tarjeta_identidad">Tarjeta de Identidad</option>
-                        <option value="cudula_extrangera">Cedula Extrangera</option>
-                    </select>
-                </td>
-            </tr>
+        <table>
             <tr>
                 <td>Identificacion</td>
                 <td><input type="text" name="identificacion" required placeholder="Identificacion"></td>
@@ -51,16 +39,8 @@
                 <td><input type="text" name="telefono" required placeholder="Telefono"></td>
             </tr>
             <tr>
-                <td>Fecha de Registro</td>
-                <td><input type="date" name="fecha_registro" required placeholder="Fecha de Registro"></td>
-            </tr>
-            <tr>
-                <td>Estado Cliente</td>
-                <td><select name="estado_clientes" id="estado">
-                    <option value=""></option>
-                    <option value="activo">activo</option>
-                    <option value="inactivo">Inactivo</option>
-                </select></td>
+                <td>Contraseña</td>
+                <td><input type="password" name="password" required placeholder="password"></td>
             </tr>
             <tr>
                 <td colspan="2"><button class="boton" type="submit">Enviar</button></td>
