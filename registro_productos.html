@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Inventario</title>
+    <title>Productos</title>
 </head>
 <body>
     <nav>
@@ -12,30 +12,25 @@
             <li><a href="registro_venta.html">Ventas</a></li>
         </ul>
     </nav>
-    <h1>Registro de Inventario</h1>
+    <h1>Registro de Productos</h1>
     <link rel="stylesheet" href="css/registros.css">
     <form action="post" action="" name="frm1">
         <table>
         <tr>
-            <td>Fecha de Ingreso:</td>
-            <td><input type="date" name="ingreso" required placeholder="Ingreso"></td>
+            <td>Descripcion del producto</td>
+            <td><input type="text" name="descripcion" required placeholder="Descripcion"></td>
         </tr>
         <tr>
-            <td>Fecha de Salida</td>
-            <td><input type="date" name="vencimiento" required placeholder="Salida"></td>
+            <td>Nombre del Producto:</td>
+            <td><input type="text" name="nombre" required placeholder="Nombre"></td>
         </tr>
         <tr>
-            <td>Stock:</td>
-            <td><input type="number" name="cantidad"¿ required placeholder="Cantidad"></td>
+            <td>Prsentación del producto:</td>
+            <td><input type="text" name="presentación" required placeholder="Presentacion"></td>
         </tr>
         <tr>
-            <td>Valor</td>
-            <td><input type="number" name="precio" required placeholder="Precio"></td>
-        </tr>
-        
-        <tr>
-            <td>Nombre del producto</td>
-            <td><input type="text" name="provedor" required placeholder="Proveedor"></td>
+            <td>Stock del producto</td>
+            <td><input type="number" name="stock" required placeholder="Stock"></td>
         </tr>
         <tr>
             <td colspan="2"><button class="boton" type="submit">Enviar</button></td>
